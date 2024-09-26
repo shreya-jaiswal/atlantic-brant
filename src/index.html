@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+<body>
+  <header>
+    <div class="container">
+      <br><br><h1>Why so many Brants in Brooklyn's Christmas Bird Count?</h1>
+      <p>The Atlantic Brant, despite it's duck-like appearance, is a goose that migrates from the Arctic to the US East Coast every year. 
+        It thrives in astonishing temperatures reaching as low as 36 degrees Fahrenheit. While they are super cute, it's peculiar that 
+        they'd account for so much of the total birds seen on Christmas day.</p>
+        <h3>Proportion of birds 1 or more % of total observed birds on Christmas 2020 in Brooklyn </h3> *Data from Audobon's Christmas Bird Count, Migratory Birds Division
+        <div id="visualization3"></div>
+      <br> 
+      <h1>Is the population increasing?</h1>
+      <p>While it was a good guess, the population has been relatively steady year over year, placing it on the 'least concern' list on conservation
+        lists. There was a major drop in population after consecutive brutal Arctic winters in 1976-1977, after which the population
+        dropped to ~40k. The population recovered to its former glory of 120k+ due in part to swift implementation of hunting regulations.</p><br>
+      <h3>Total population of Atlantic Brant Geese Over Time</h3> *Data from USFWS, Migratory Birds Division
+      <div id="visualization"></div> <!-- Empty div for the first chart -->
+      <br><br>
+
+      <h1>More Atlantic Brants are migrating to NYC than ever before</h1>
+      <p>The top two states for Brant sightings during the winter migration are NJ and NY. Interestingly, NJ started out as one of the top 
+        migratory stops for these birds but has seen a steep decline, while NY is seeing a steep increase. Researchers predict that the 
+        swap from NJ to NY was seen in major part due to the harsh winters of 1976-1977.<br>
+      </p><br>
+      <h3>Total population of Atlantic Brants in New York and New Jersey</h3>
+      <div id="visualization2"></div> <!-- Empty div for the second chart -->
+      <br>
+      <h1>Total population is only one of the many ways to understand how a species is doing</h1>
+      <p>What do you think the downstream effects of these geese moving further and further inland during migrations is? Given that there 
+        haven't been brutal Arctic Winters since the 76'-77' ones, what do you think is causing the increase of geese in New York? I hope
+        this data, if anything, was an interesting example of how population size and location census for birds may differ and be grounds
+        for more research.<br>
+      </p><br>
+    </div>
+  </header>
+
+  <!-- Move the scripts outside the divs -->
+  <script type="module" src="sketch.js"></script> <!-- Script for the first chart -->
+  <script type="module" src="sketch2.js"></script> 
+  <script type="module" src="sketch3.js"></script><!-- Script for the second chart -->
+</body>
+
+</html>
