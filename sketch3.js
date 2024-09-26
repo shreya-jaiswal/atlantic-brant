@@ -1,4 +1,4 @@
-import p5 from 'p5';
+
 
 const birdData = [
   { species: "Brant", totalSeen: 10015, proportion: 0.2180871913 },

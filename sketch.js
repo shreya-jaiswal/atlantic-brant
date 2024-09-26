@@ -1,4 +1,4 @@
-import p5 from 'p5';
+
 
 // Your data array
 const data = [
